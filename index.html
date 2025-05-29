@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Amir Hussain | Developer Portfolio</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <a href="index.html" class="logo">AmirH.</a>
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+            <a href="index.html" class="logo">
+  <img src="assets/images/logo.jpeg" alt="Amir Hussain Logo" />
+</a>
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          
+        </ul>
+      </nav>
+      <button id="theme-toggle" aria-label="Toggle dark mode" class="btn theme-toggle">🌙</button>
+      <button id="mobile-menu-toggle" aria-label="Toggle navigation menu" class="btn mobile-menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <div class="container hero-content">
+      <h1>Hello, I'm Amir Hussain</h1>
+      <h2>I am a <span 
+        class="typewriter" 
+        data-words='["Software Developer", "Open Source Contributor", "Tech Enthusiast"]' 
+        data-wait="2000"></span>
+      </h2>
+      <p>Passionate about crafting high-performance web applications and constantly exploring emerging technologies.</p>
+      <a href="projects.html" class="btn btn-primary">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Preview -->
+  <section class="about-preview" data-aos="fade-right">
+    <div class="about-profile-pic">
+  <img src="assets/images/profile.png" alt="Amir Hussain" />
+</div>
+
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am currently pursuing B.Tech in Computer Science Engineering at BIT Mesra. I have experience with React, Node.js, Express, and more.</p>
+      <a href="about.html" class="btn btn-secondary">Read More</a>
+    </div>
+  </section>
+
+  <!-- Projects Preview -->
+  <section class="projects-preview" data-aos="fade-left">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-cards">
+  <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+    <img src="assets/images/calculator.png" alt="Project 1" />
+    <h3>Allin1Calculator</h3>
+    <p>Tech Stack: Node.js, Express.js, JavaScript, MongoDB
+Developed a responsive web application featuring over 30 calculators spanning financial, health, and unit conversion categories. Designed and implemented RESTful APIs using Node.js and Express.js, while integrating MongoDB for secure data storage and retrieval. Implemented key business logic for tools like BMI, Currency Converter, and Salary calculators. Worked closely with the front-end team to ensure smooth functionality and user experience across all devices.</p>
+    <a href="https://github.com/123-Amir/My-New-Calculator.git" class="btn btn-primary">View Details</a>
+  </div>
+
+  <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+    <img src="assets/images/project2.png" alt="Project 2" />
+    <h3>AI-Powered Medical Diagnosis</h3>
+    <p>Tech Stack: Python, Jupyter Notebook, Scikit-learn, Pandas, NumPy, Streamlit
+Built a machine learning-based medical diagnosis tool capable of identifying potential conditions through user input. Conducted data preprocessing steps including handling missing values, normalization, and data splitting. Implemented and evaluated multiple models—Support Vector Machine (SVM), Logistic Regression, and Random Forest—measuring performance with accuracy, precision, recall, and F1-score. Deployed the final solution using Streamlit to provide an interactive and user-friendly web interface.</p>
+    <a href="https://123-amir-aicte-techsaksham-mds-i51hav.streamlit.app/" class="btn btn-primary">Live Demo</a>
+  </div>
+
+  <!-- New Project Card: Drawing App -->
+  <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+    <img src="assets/images/Drawing_App.png" alt="Next.js Drawing App" />
+    <h3>Next.js Drawing App</h3>
+    <p>Tech Stack: Next.js, TypeScript, Tailwind CSS, Framer Motion
+Created a dynamic, full-featured drawing application with a modern and responsive UI. Integrated drawing tools including brush, eraser, rectangle, and circle, along with a layer management panel supporting visibility toggling, undo/redo, and clearing layers. Implemented save/export functionality to PNG format. Leveraged Tailwind CSS for styling and framer-motion for smooth animations. Ensured server-side rendering (SSR) compatibility and responsive canvas behavior using client-safe practices in Next.js.</p>
+    <a href="https://v0-github-repository-gi063fnly-123-amirs-projects.vercel.app/" class="btn btn-primary">Live Demo</a>
+  </div>
+
+  <div class="project-card" data-aos="zoom-in" data-aos-delay="400">
+  <img src="assets/images/Kanban Board.png" alt="Kanban Board Project" />
+  <h3>Kanban Board</h3>
+  <p>
+    A responsive task management board with multiple projects, drag-and-drop tasks, localStorage persistence,
+    and state management via Zustand. Built using React, TypeScript, Tailwind CSS, and Vite.
+  </p>
+  <a href="https://123-amir.github.io/kanban-board/" class="btn btn-primary">Live Demo</a>
+</div>
+
+<div class="project-card" data-aos="zoom-in" data-aos-delay="500">
+  <img src="assets/images/softShell.png" alt="SoftSell Project" />
+  <h3>SoftSell</h3>
+  <p>
+    A responsive single-page marketing site for a fictional software resale startup. Features modern sections,
+    dark/light mode, smooth animations, an AI chat widget demo, and SEO optimization. Built using React, Vite,
+    Tailwind CSS, and Framer Motion.
+  </p>
+  <a href="https://softsell-kohl.vercel.app/" class="btn btn-primary" target="_blank">Live Demo</a>
+</div>
+
+</div>
+      <a href="projects.html" class="btn btn-secondary">See All Projects</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up">
+    <div class="container footer-container">
+      <p>© 2025 Amir Hussain. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://github.com/123-Amir" aria-label="GitHub"><img src="assets/icons/github.svg" alt="GitHub" /></a>
+        <a href="https://linkedin.com/in/amir-hussain-49383b259" aria-label="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn" /></a>
+        <a href="https://x.com/AmirHussain94" aria-label="Twitter"><img src="assets/icons/brand-twitter.svg" alt="Twitter" /></a>
+        <a href="https://leetcode.com/u/Aamir_Hussain94/" aria-label="LeetCode"><img src="assets/icons/brand-leetcode.svg" alt="LeetCode" /></a>
+        <a href="https://www.geeksforgeeks.org/user/amirhussaqvct/" aria-label="GeeksforGeeks"><img src="assets/icons/brand-gfg.svg" alt="GeeksforGeeks" /></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/typewriter.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/darkmode.js"></script>
+  <script src="js/contact-form.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
