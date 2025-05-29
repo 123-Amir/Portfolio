@@ -1,12 +1,6 @@
 # 💼 Amir Hussain - Developer Portfolio
 
-Welcome to my personal developer portfolio website! This site showcases my projects, technical skills, education, internship experience, and contact details in a modern, responsive layout.
-
----
-
-## 🔗 Live Demo
-
-[View Portfolio Website](https://your-live-link.vercel.app/) 
+Welcome to my personal developer portfolio website! This site showcases my projects, technical skills, education, internship experience, and contact details in a modern, responsive live Demo (https://amirportfolio-ecru.vercel.app/)) 
 
 ---
 
